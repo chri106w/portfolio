@@ -1,0 +1,501 @@
+/**generelt**/
+h3 {
+    color: #004c9e;
+    font-size: 4.2vw;
+    font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+    color: #004c9e;
+    font-size: 4.2vw;
+    padding: 0.6vw;
+    padding-left: 1.4vw;
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    color: #ea0063;
+    font-size: 3.5vw;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    color: #ea0063;
+    font-size: 3.5vw;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+/****FORSIDE*****/
+
+/**splash og footer**/
+
+/*foto*/
+
+#splash {
+    position: relative;
+    background-size: cover;
+    z-index: 4;
+    top: -8vw;
+}
+
+.footerbaggrund {
+    position: absolute;
+    top: 142vw;
+}
+
+.footer {
+    position: absolute;
+    top: 125.5vw;
+    z-index: 4;
+}
+
+
+/*baggrund*/
+
+.sectionwrapper {
+    background-color: #ffcbe5;
+    display: flex;
+    flex-direction: column;
+}
+
+/*om*/
+
+#om {
+    position: relative;
+    top: -15vw;
+    z-index: 3;
+}
+
+/*overskrifter*/
+
+.overskrift {
+    width: 55%;
+    align-self: flex-end;
+    position: absolute;
+    padding: 1vw;
+}
+
+.weboverskrift {
+    width: 40%;
+    align-self: flex-end;
+    position: absolute;
+    padding: 1vw;
+}
+
+.indholdoverskrift {
+    width: 30%;
+    align-self: flex-end;
+    position: absolute;
+    padding: 1vw;
+}
+
+.animationoverskrift {
+    width: 40%;
+    align-self: flex-end;
+    position: absolute;
+    padding: 1vw;
+}
+
+.uxoverskrift {
+    width: 18%;
+    align-self: flex-end;
+    position: absolute;
+    padding: 1vw;
+}
+
+/****WEBDESIGN****/
+
+#webdesign {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffcbe5;
+    padding-bottom: 50vw;
+}
+
+.row {
+    display: flex;
+    align-self: center;
+}
+
+.img {
+    padding: 0.8vw;
+}
+
+.txt {
+    padding: 2vw;
+}
+
+.footerbaggrund1 {
+    position: absolute;
+    top: 162vw;
+}
+
+.footer1 {
+    position: absolute;
+}
+
+/*******MENU******/
+
+.hidden {
+    transform: scale(0);
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform 0.5s;
+    transform-origin: top left;
+    background-color: #ffa6d6;
+    position: absolute;
+    z-index: 5;
+    top: 4.5vw;
+    left: 6vw;
+    padding: 2vw;
+}
+
+#menuknap {
+    display: inline-block;
+    color: deeppink;
+    font-size: 6vw;
+    top: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    padding: 2vw;
+}
+
+/*link styling*/
+
+a {
+    color: #004c9e;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3vw;
+    padding: 2vw;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+
+/****INDHOLD****/
+
+#indhold {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffcbe5;
+    padding-bottom: 44vw;
+}
+
+.footerbaggrund2 {
+    position: absolute;
+    top: 447vw;
+}
+
+.footer2 {
+    position: absolute;
+    top: 430.5vw;
+}
+
+/*******ANIMATION******/
+
+#animation {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffcbe5;
+    padding-bottom: 44vw;
+}
+
+.footerbaggrund3 {
+    position: absolute;
+    top: 347vw;
+}
+
+.footer3 {
+    position: absolute;
+    top: 330.5vw;
+}
+
+/********UX********/
+
+#ux {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffcbe5;
+    padding-bottom: 44vw;
+}
+
+.footerbaggrund4 {
+    position: absolute;
+    top: 732vw;
+}
+
+.footer4 {
+    position: absolute;
+    top: 715.5vw;
+}
+
+/********MOBILE*********/
+
+@media only screen and (min-width: 300px) {
+
+    #om {
+        padding: 3vw;
+    }
+
+    #christinefoto {
+        position: relative;
+        top: -1vw;
+        left: 50vw;
+        width: 45%;
+    }
+
+    .webdesign {
+        padding-bottom: 20vw;
+    }
+
+    .sectionwrapper {
+        padding-bottom: 15vw;
+    }
+
+    .footerbaggrund {
+        top: 212vw;
+    }
+
+    .footer {
+        top: 195.2vw;
+    }
+
+    .footerbaggrund1 {
+        top: 212vw;
+    }
+
+    .footer1 {
+        top: 200.2vw;
+    }
+
+    .footerbaggrund2 {
+
+        top: 575vw;
+    }
+
+    .footer2 {
+
+        top: 568.2vw;
+    }
+
+    .footerbaggrund3 {
+
+        top: 485vw;
+    }
+
+    .footer3 {
+
+        top: 468.2vw;
+    }
+
+    .footerbaggrund4 {
+        top: 957vw;
+    }
+
+    .footer4 {
+        top: 939.2vw;
+    }
+
+    a {
+        font-size: 5vw;
+        padding: 2vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+        padding-left: 3.5vw;
+    }
+
+    h3 {
+        font-size: 5vw;
+    }
+
+    .txt {
+        padding: 3.5vw;
+    }
+
+    .row {
+        padding: 2vw;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+}
+
+/*****DESKTOP*****/
+
+@media only screen and (min-width: 600px) {
+
+    a {
+        font-size: 2.3vw;
+    }
+
+    p {
+        font-size: 2.5vw;
+    }
+
+    h1 {
+        font-size: 2.7vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    .overskrift {
+        width: 44%;
+    }
+
+    .weboverskrift {
+        width: 35%;
+
+    }
+
+    .indholdoverskrift {
+        width: 27%;
+
+    }
+
+    .animationoverskrift {
+        width: 35%;
+
+    }
+
+    .uxoverskrift {
+        width: 14%;
+
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+
+    #christinefoto {
+        position: relative;
+        top: -32vw;
+        left: 63vw;
+        width: 35%;
+    }
+
+    .img:hover {
+        transform: scale(1.3);
+    }
+
+    a {
+        font-size: 2vw;
+    }
+
+    p {
+        font-size: 1.6vw;
+    }
+
+    h1 {
+        font-size: 1.8vw;
+    }
+
+    h2 {
+        font-size: 2.5vw;
+    }
+
+    h3 {
+        font-size: 2.5vw;
+    }
+
+    #menuknap {
+        font-size: 4vw;
+    }
+
+    .overskrift {
+        width: 38%;
+    }
+
+    .weboverskrift {
+        width: 32%;
+
+    }
+
+    .indholdoverskrift {
+        width: 22%;
+
+    }
+
+    .animationoverskrift {
+        width: 32%;
+
+    }
+
+    .uxoverskrift {
+        width: 13%;
+
+    }
+
+    .txt {
+        width: 60%;
+        padding-left: 3.2vw;
+    }
+
+    .footerbaggrund {
+
+        top: 120vw;
+    }
+
+    .footer {
+
+        top: 103.1vw;
+    }
+
+    .footerbaggrund1 {
+        top: 117vw;
+    }
+
+    .footer1 {
+        top: 100.1vw;
+    }
+
+
+    .footerbaggrund2 {
+        top: 277vw;
+    }
+
+    .footer2 {
+        top: 260.1vw;
+    }
+
+    .footerbaggrund3 {
+        top: 207vw;
+    }
+
+    .footer3 {
+        top: 190.1vw;
+    }
+
+    .footerbaggrund4 {
+        top: 457vw;
+    }
+
+    .footer4 {
+        top: 440.1vw;
+    }
+
+    .sectionwrapper {
+        padding-bottom: 3vw;
+    }
+}
